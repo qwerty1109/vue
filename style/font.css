@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "FA";
+    src: url(../fonts/Webfonts/fa-solid-900.ttf);
+    font-weight: 900;
+}
+
+.fa-solid {
+    font-family: "FA";
+    font-weight: 900;
+    font-style: normal;
+    color: gold;
+    font-size: 16px;
+}
+
+.star::before {
+    content: '\f005';
+}
+
+.care::before {
+    content: '\f0d7';
+    color: #17C2EC;
+}
+
+.nigga {
+    color: grey;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.phone::before {
+    content: '\f879';
+    color: grey;
+}
+
+.play::before {
+    content: '\f04b';
+    color: grey;
+}
+
+@font-face {
+    font-family: 'FA';
+    src: url(../fonts/Webfonts/fa-brands-400.ttf);
+    font-weight: 400;
+}
+
+.fa-brands {
+    font-family: "FA";
+    font-weight: 400;
+    font-style: normal;
+    color: #19BCE4;
+    font-size: 24px;
+}
+
+.facebook::before {
+    content: '\f39e';
+}
+
+.twitter::before {
+    content: '\f099';
+}
+
+.instagram::before {
+    content: '\f16d';
+}
+
+.linkedin::before {
+    content: '\f0e1';
+}
+
+.google::before {
+    content: '\f1a0';
+    color: grey;
+    font-size: 16px;
+}
